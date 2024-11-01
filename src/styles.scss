@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --fs-1: 1.2em;
+}
+.form {
+    border: 4px solid #2c5e77;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    .form-row {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      label {
+        font-size: var(--fs-1);
+        margin-right: 15px;
+      }
+      input {
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: var(--fs-1);
+        width: 300px;
+        &:not(:focus) {
+          background-color: #f3f1f5;
+        }
+        &::placeholder {
+          color: #434242;
+        }
+      }
+
+      select{
+        min-width: 150px;
+        font-size: var(--fs-1);
+      }
+    }
+  
+    .form-buttons {
+      margin: 15px 0;
+      button {
+        margin-left: 10px;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #2c5e77;
+        font-size: var(--fs-1);
+      }
+    }
+  }
+  
+  .error {
+    color: red;
+    font-size: var(--fs-1);
+  }
+  
