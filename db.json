@@ -1,12 +1,6 @@
 {
   "contacts": [
     {
-      "id": "de8bcf76",
-      "lastName": "Ali",
-      "firstName": "Mohamed",
-      "phoneNumber": "+2217115485"
-    },
-    {
       "id": "Pqom-Ke",
       "lastName": "Kwaku",
       "firstName": "Anicet",
@@ -29,6 +23,12 @@
       "lastName": "Adoté",
       "firstName": "Hermann",
       "phoneNumber": "+22891215421"
+    },
+    {
+      "id": "68a3",
+      "lastName": "Toto",
+      "firstName": "Tata",
+      "phoneNumber": "+1222222222"
     }
   ]
 }

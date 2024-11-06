@@ -24,7 +24,9 @@ export class SettingsPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.initForm();
-    this.langageCtrl.valueChanges.pipe(takeUntilDestroyed(this.destroyRef)).subscribe(langCode => this.setLangage(langCode))
+    this.langageCtrl.valueChanges
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe((langCode) => this.setLangage(langCode));
   }
 
   initForm() {
